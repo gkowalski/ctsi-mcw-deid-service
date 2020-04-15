@@ -20,9 +20,15 @@ The web app and web service links provided below are for evaluation only and not
 ### Installation
 
 Install Apache tomcat 8.*  from ( http://tomcat.apache.org/ )
+Install Apache Maven
+
+Checkout this code with :
+
+    git clone git@github.com:gkowalski/ctsi-mcw-deid-service.git
 
 Next compile the code with :
 
+    cd ctsi-mcw-deid-service
     mvn clean
     mvn package
 
@@ -30,7 +36,7 @@ This will produce a deployable war file under the target subdirectory. ( ctsi-mc
 copy this file to your ~tomcat8/webapps/ directory.
 
     cd ~tomcat/bin
-    ./startup.sh`
+    ./startup.sh
 
 Open your browser and go to the URL :
 
