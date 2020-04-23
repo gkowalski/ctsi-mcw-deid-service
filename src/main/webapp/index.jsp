@@ -196,10 +196,11 @@ $('#nlpform').submit(function() { // catch the form's submit event
     </td>
     <td></td>
   </tr>
-  <tr><td></td><td>&nbsp;</td><td></td></tr>
+  <tr><td></td><td>Please NO Real Patient PHI at this time. This site is for testing / demonstration of this De-identification process only.
+    We don't store or log any of the notes being sent thru, but also don't guarantee its security. </td><td></td></tr>
   <tr>
     <td></td>
-    <td class="basew"><h4>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:jay.urbain@gmail.com" class="white">Email Us: <span style="font-size:90%">jay.urbain@gmail.com</span></a></h4></td>
+    <td class="basew"><h4>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:notes-deid@mcw.edu" class="white">Email Us: <span style="font-size:90%">notes-deid@mcw.edu</span></a></h4></td>
     <!--  
     <td class="basew"><h4>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:crdw@mcw.edu" class="white">Email Us: <span style="font-size:90%">crdw@mcw.edu</span></a></h4></td>
     -->
